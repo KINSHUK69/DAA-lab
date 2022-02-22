@@ -1,3 +1,5 @@
+// LINAER SEARCH
+
 #include<iostream>
 #include<vector>
 using namespace std;
