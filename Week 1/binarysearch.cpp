@@ -34,7 +34,7 @@ int main()
 			}
 			else(vec[mid]<target)
 			l=mid+1;
-			else(vec[med]>target)
+			else
 			r=mid-1;
 		}		
 		if(c==0)
