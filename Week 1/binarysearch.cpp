@@ -15,8 +15,8 @@ int main()
 		target=0;
 		cin>>n;
 		vector<int> vec;
-	    for(int i=0;i<n;i++)
-	    {
+	        for(int i=0;i<n;i++)
+	       {
 			int a;
 			cin>>a;
 			vec.push_back(a);
@@ -31,13 +31,14 @@ int main()
 			{
 				cout<<"Present "<<c;
 				c++;
+				break;
 			}
 			else(vec[mid]<target)
 			l=mid+1;
 			else
 			r=mid-1;
 		}		
-		if(c==0)
+		if(c==1)
 		cout<<"Not Present "<<n/2;;
 		vec.clear();		
 	}	
