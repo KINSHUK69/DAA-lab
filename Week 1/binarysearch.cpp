@@ -8,6 +8,7 @@ int main()
 {
 
 	int t;
+	cin>>t;
 	while(t--)
 	{
 		int c,n,target,mid,l,r;
@@ -29,11 +30,11 @@ int main()
 			mid=l+(r-l)/2;
 			if(vec[mid]==target)
 			{
-				cout<<"Present "<<c;
+				cout<<"Present "<<mid << "iterations = "<<c;
 				c++;
 				break;
 			}
-			else(vec[mid]<target)
+			else if(vec[mid]<target)
 			l=mid+1;
 			else
 			r=mid-1;
